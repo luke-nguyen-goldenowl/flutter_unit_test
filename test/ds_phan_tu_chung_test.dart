@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_unit_test/constants/ds_phan_tu_chung.dart';
 
 void main() {
-  test('Phần từ chung của 2 mảng rỗng', () {
+  test('Kiểm tra phần tử chung đối với 2 mảng rỗng', () {
     List<int> list1 = [];
     List<int> list2 = [];
     expect(dsPhanTuChung(list1, list2), []);
@@ -12,7 +12,7 @@ void main() {
     List<int> list2 = [3, 4, 5];
     expect(dsPhanTuChung(list1, list2), [3]);
   });
-  test('Phần từ chung của cả 2 mảng cho trước, không trùng nhau', () {
+  test('Phần từ chung của cả 2 mảng có 1 mảng rỗng', () {
     List<int> list1 = [];
     List<int> list2 = [3, 4, 5];
     expect(dsPhanTuChung(list1, list2), []);
