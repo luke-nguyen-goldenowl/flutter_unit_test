@@ -13,3 +13,7 @@ This project is a Dart Challenge about using unit test in Flutter
 # Unit Test 3
 ### Viết function và unit test:
 - Kiểm tra 1 String có phải là palindrome hay không.
+
+# Unit Test 4
+### Viết function và unit test:
+- Kiểm tra 1 số có phải là 1 số nguyên tố hay không.
