@@ -9,3 +9,7 @@ This project is a Dart Challenge about using unit test in Flutter
 ### Viết function và unit test:
 - Input: Là 2 List<int>
 - Output: 1 list chỉ chứa các số mà có trong 2 mảng input. Các số không được trùng.
+
+# Unit Test 3
+### Viết function và unit test:
+- Kiểm tra 1 String có phải là palindrome hay không.
