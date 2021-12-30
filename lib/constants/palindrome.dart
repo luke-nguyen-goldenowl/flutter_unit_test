@@ -1,5 +1,5 @@
 bool palindrome(String input) {
-  input = input
+  String changeInput = input
       .toLowerCase()
       .replaceAll('.', '')
       .replaceAll(',', '')
@@ -10,11 +10,11 @@ bool palindrome(String input) {
       .replaceAll('\'', '')
       .replaceAll('"', '');
 
-  String output = input.split('').reversed.join('');
+  String output = changeInput.split('').reversed.join('');
 
-  if (input.length < 2) {
+  if (changeInput.length < 2) {
     return false;
-  } else if (input == output) {
+  } else if (changeInput == output) {
     return true;
   } else {
     return false;
